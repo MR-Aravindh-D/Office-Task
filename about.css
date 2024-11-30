@@ -1,0 +1,13 @@
+h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: black;
+}
+dt{
+    text-decoration: underline;
+    color: black;
+}
+body{
+   background-color: rgb(87, 86, 86);
+   color: white;
+}
