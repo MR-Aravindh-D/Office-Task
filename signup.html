@@ -5,99 +5,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <from>
-        <table>
-            <tr>
-                <td>firstName:</td>
-                <td><input type="text" placeholder="enter a firstname:"></td>
-            </tr>
-            <tr>
-                <td>lastName:</td>
-                <td><input type="text" placeholder="enter a lastname:"></td>
-            </tr>
-            <tr>
-                <td>date of birth:</td>
-                <td><input type="date" placeholder="enter a date of birth:"></td>
-            </tr>
-            <tr>
-                <td>Age:</td>
-                <td><input type="number" placeholder="enter a age"></td>
-            </tr>
-            <tr>
-                <td>Gender:</td>
-                <td>
-                    <input type="radio" name="gender">male
-                    <input type="radio" name="gender">female
-                </td>
-            </tr>
-            <tr>
-                <td>phonenumber:</td>
-                <td><input type="number" placeholder="enter a phonenumber:"></td>
-            </tr>
-            <tr>
-                <td>Email:</td>
-                <td><input type="email" placeholder="email"></td>
-            </tr>
-            <tr>
-                <td>address:</td>
-                <td><input type="text" placeholder="enter a address:"></td>
-            </tr>
-            <tr>
-                <td>State:</td>
-                <td>
-                    <select>
+    <center>
+        <div>
+            <h1>Sign Up</h1>
+            <form>
+                <table>
+                    <tr>
+                        <td>firstName:</td>
+                        <td><input type="text" placeholder="enter a firstname:" required></td>
+                    </tr>
+                    <tr>
+                        <td>lastName:</td>
+                        <td><input type="text" placeholder="enter a lastname:" required></td>
+                    </tr>
+                    <tr>
+                        <td>date of birth:</td>
+                        <td><input type="date" placeholder="enter a date of birth:" required></td>
+                    </tr>
+                    <tr>
+                        <td>Age:</td>
+                        <td><input type="number" placeholder="enter a age" required></td>
+                    </tr>
+                    <tr>
+                        <td>Gender:</td>
+                        <td>
+                            <input type="radio" name="gender">male
+                            <input type="radio" name="gender">female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>phonenumber:</td>
+                        <td><input type="number" placeholder="enter a phonenumber:" required></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input type="email" placeholder="email" required></td>
+                    </tr>
+                    <tr>
+                        <td>address:</td>
+                        <td><textarea></textarea></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>State:</td>
+                        <td>
+                            <select>
 
-                        <option>tamilnadu</option>
-                        <option>kerala</option>
-                        <option>Assam</option>
-                        </option>Telangana</option>
-                        <option>Karnataka</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td>city:</td>
-                <td>
-                    <select>
-                        <option>Chenni</option>
-                        <option> Coimbatore</option>
-                        <option>selam</option>
-                        <option>Thiruvananthapuram</option>
-                        <option>Kozhikode</option>
-                        <option>Udalguri</option>
-                        <option>Hyderabad</option>
-                        <option>Bangalore</option>
-                        <option>Mysore</option>
-                    </select>
-                </td>
-            </tr>
-            </tr>
-            <tr>
-                <td>username:</td>
-                <td><input type="text" placeholder="enter a username:"></td>
-            </tr>
-            </tr>
-            <tr>
-                <td>password:</td>
-                <td><input type="number" placeholder="enter a password:"></td>
-            </tr>
-            </tr>
-            <tr>
-                <td>confirm password:</td>
-                <td><input type="number" placeholder="enter a password:"></td>
-            </tr>
+                                <option>tamilnadu</option>
+                                <option>kerala</option>
+                                <option>Assam</option>
+                                </option>Telangana</option>
+                                <option>Karnataka</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>city:</td>
+                        <td>
+                            <select>
+                                <option>Chenni</option>
+                                <option> Coimbatore</option>
+                                <option>selam</option>
+                                <option>Thiruvananthapuram</option>
+                                <option>Kozhikode</option>
+                                <option>Udalguri</option>
+                                <option>Hyderabad</option>
+                                <option>Bangalore</option>
+                                <option>Mysore</option>
+                            </select>
+                        </td>
+                    </tr>
 
-            <tr>
-                <td><input type="reset"></td>
-                <td><input type="submit"></i></td>
-            </tr>
+                    <tr>
+                        <td>username:</td>
+                        <td><input type="text" placeholder="enter a username:" required></td>
+                    </tr>
 
-        </table>
-        <hr>
-    </from>
+                    <tr>
+                        <td>password:</td>
+                        <td><input type="password" placeholder="enter a password:" required></td>
+                    </tr>
+
+                    <tr>
+                        <td>confirm password:</td>
+                        <td><input type="password" placeholder="enter a password:" required></td>
+                    </tr>
+
+                    <tr>
+
+                        <td><button>submit</button></td>
+                    </tr>
+
+                </table>
+
+            </form>
+        </div>
+    </center>
 </body>
 
 </html>
