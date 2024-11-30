@@ -6,18 +6,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login page</title>
 </head>
+<style>
+    body {
+        background: rgb(192, 190, 190);
+
+
+    }
+
+    div {
+        text-align: center;
+
+        border: solid white 5px;
+        height: 400px;
+        width: 300px;
+        /* margin-left: 40%; */
+        margin-top: 10%;
+        border-radius: 10px;
+        /* display: inline-block; */
+        background-color: white;
+    }
+
+    h1 {
+        background-color: black;
+        color: white;
+        position: relative;
+        bottom: 22px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        overflow: hidden;
+    }
+
+    .mail {
+        position: relative;
+        bottom: 20px;
+        padding: 10px;
+        border-radius: 7px;
+
+    }
+
+    .num {
+        position: relative;
+        top: 0px;
+        padding: 10px;
+        border-radius: 7px;
+    }
+
+    .rem {
+        position: relative;
+        top: 10px;
+        padding-bottom: 10px;
+        border-radius: 7px;
+    }
+
+    .btn {
+        position: relative;
+        top: 30px;
+        height: 40px;
+        width: 80%;
+        border-radius: 7px;
+        background-color: rgb(200, 101, 243);
+        color: white;
+        font-size: 20px;
+    }
+
+    .sign {
+        position: relative;
+        top: 30px;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: tomato;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
 
 <body>
-    <div style="text-align: center;" >
-        <form>
-            <h1>Login From</h1>
-            <input type="email" placeholder="email address" required><br>
-            <input type="number" placeholder="password" required><br>
-            <input type="checkbox" id="remember" name="abc">
-            <label for="remember"> Remember me</label> &emsp;       <a href="xyz">Forgot password?</a><br>
-            <button>Login</button>
-            <p>Not a Member? &emsp; <a href="signup.html">Signup Now</a></p>
-    </div>
+    <center>
+        <div>
+            <form>
+                <h1>Login From</h1>
+                <input class="mail" type="email" placeholder="email address" required><br>
+                <input class="num" type="password" placeholder="password" required><br>
+                <input class="rem" type="checkbox" id="remember" name="abc">
+
+                <label class="rem" for="remember"> Remember me</label> &emsp; <a class="rem" href="xyz">Forgot
+                    password?</a><br>
+                <button class="btn"><b>Login</b></button>
+                <p class="sign">Not a Member? &emsp; <a href="signup.html">Signup Now</a></p>
+        </div>
+    </center>
     </form>
 </body>
 
